@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras de Rua</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script defer src="scripts/rima_por_palavra.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Palavras de Rua</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batalha.html">Batalha</a></li>
+                <li><a href="rima_por_palavra.html">Rima por Palavra</a></li>
+                <li><a href="beats.html">Beats</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Rima por Palavra</h2>
+        <div class="timer-container">
+            <svg width="100" height="100">
+                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                <circle class="circle" cx="50" cy="50" r="45"></circle>
+            </svg>
+            <div id="timer">60</div>
+        </div>
+        <div id="word"></div>
+        <button id="startButton">Começar</button>
+        <div id="results"></div>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados Palavras de Rua</p>
+    </footer>
+</body>
+</html>

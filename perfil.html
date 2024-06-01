@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras de Rua</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Palavras de Rua</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="batalha.html">Batalha</a></li>
+                <li><a href="rima_por_palavra.html">Rima por Palavra</a></li>
+                <li><a href="beats.html">Beats</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile-container">
+            <img src="sua-foto.jpg" alt="Sua Foto" class="profile-photo">
+            <div class="profile-info">
+                <h3>Seu Nome</h3>
+                <p>ID: 123456</p>
+                <p>Descrição breve sobre você. Seus interesses, hobbies e o que mais quiser compartilhar.</p>
+                <p><strong>Metas:</strong> <span id="goals">Melhorar minhas habilidades de rima, participar de batalhas semanais, criar novos beats.</span></p>
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+            </div>
+        </div>
+        <div class="consecutive-days" id="consecutive-days">
+            Dias consecutivos de treino: <span id="days-count">0</span>
+        </div>
+
+        <div class="goals-form">
+            <input type="text" id="new-goals" placeholder="Atualize suas metas">
+            <button onclick="updateGoals()">Salvar Metas</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados Palavras de Rua</p>
+    </footer>
+</body>
+</html>
